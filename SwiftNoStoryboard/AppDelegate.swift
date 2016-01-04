@@ -24,9 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav4 = UINavigationController(rootViewController: ViewController())
 
         nav1.tabBarItem = UITabBarItem(tabBarSystemItem: .Contacts, tag: 0)
-        nav2.tabBarItem = UITabBarItem(tabBarSystemItem: .Contacts, tag: 0)
-        nav3.tabBarItem = UITabBarItem(tabBarSystemItem: .Contacts, tag: 0)
-        nav4.tabBarItem = UITabBarItem(tabBarSystemItem: .Contacts, tag: 0)
+        nav2.tabBarItem = UITabBarItem(tabBarSystemItem: .Bookmarks, tag: 1)
+        nav3.tabBarItem = UITabBarItem(tabBarSystemItem: .Downloads, tag: 2)
+        nav4.tabBarItem = UITabBarItem(tabBarSystemItem: .Favorites, tag: 3)
 
         tab.viewControllers = [nav1,nav2,nav3,nav4]
 
