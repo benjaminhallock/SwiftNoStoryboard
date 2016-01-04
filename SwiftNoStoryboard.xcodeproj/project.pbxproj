@@ -63,17 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				B5ECB4681C3A09EB004C824F /* AppDelegate.swift */,
-				B5ECB47C1C3A0BCC004C824F /* TableViewController.swift */,
-				B5ECB47D1C3A0BCC004C824F /* TableViewController.xib */,
-				B5ECB46A1C3A09EB004C824F /* ViewController.swift */,
-				B5ECB47A1C3A09FA004C824F /* ViewController.xib */,
-				B5ECB4861C3A0C32004C824F /* ProfileViewController.swift */,
-				B5ECB4871C3A0C32004C824F /* ProfileViewController.xib */,
+				B5ECB48A1C3A1012004C824F /* Views */,
 				B5ECB46F1C3A09EB004C824F /* Assets.xcassets */,
 				B5ECB4711C3A09EB004C824F /* LaunchScreen.storyboard */,
 				B5ECB4741C3A09EB004C824F /* Info.plist */,
 			);
 			path = SwiftNoStoryboard;
+			sourceTree = "<group>";
+		};
+		B5ECB48A1C3A1012004C824F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5ECB46A1C3A09EB004C824F /* ViewController.swift */,
+				B5ECB47A1C3A09FA004C824F /* ViewController.xib */,
+				B5ECB47C1C3A0BCC004C824F /* TableViewController.swift */,
+				B5ECB47D1C3A0BCC004C824F /* TableViewController.xib */,
+				B5ECB4861C3A0C32004C824F /* ProfileViewController.swift */,
+				B5ECB4871C3A0C32004C824F /* ProfileViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
